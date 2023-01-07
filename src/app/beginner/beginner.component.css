@@ -1,0 +1,48 @@
+.ReturnCalculator{
+    display: flex;
+    background-color: grey;
+    padding: 50px;
+}
+.dropdown{
+    padding-top: 0px;
+    padding-left: 180px;
+    padding-bottom: 0px;
+    padding-right: 30px;
+  
+     
+}
+#sum{
+    display: inline-flex;
+    color:#687572 ;
+    padding : 12px;
+    margin: 4px;
+    
+}
+
+.value{
+    width: 48px;
+    height: 40px;
+    position: absolute;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#calculate{
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color: #687572;
+    color: white;
+    border-color: antiquewhite;
+}
+#calculate:hover{
+border-color: #687572;
+}
+body{
+    background-color: #9ED5C5;
+}
+.btn{
+    background-color:#005555;
+    color: white;
+}

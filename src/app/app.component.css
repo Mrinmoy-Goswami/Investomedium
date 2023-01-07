@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#40514E;
+    
+}
+.container-fluid{
+    display: flexbox;
+    background-color: #9ED5C5;
+    padding-left: 2px;
+    margin: 0px;
+    
+}
+
+.bg-light{
+    padding: 0px;
+}
+p{
+    color: #E4F9F5;
+}
+.calculator{
+    padding: 30px;
+    margin: auto;
+    background-color: #40514E;
+}
+h5{
+    color: white;
+}
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.row{
+    padding-left: 20px;
+}
+.navbar-brand{
+    margin-left: auto;
+    padding-left: 10px;
+}

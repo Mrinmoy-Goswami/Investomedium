@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fasthand&family=Shalimar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fasthand&family=Poor+Story&family=Shalimar&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Fasthand&family=Poor+Story&family=Shalimar&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{title}}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+   
+    <nav class="navbar navbar-expand-lg bg-light ,sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" routerLink="">Investomedium</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="home" href="#"></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Books
+              </a>
+             
+              <ul class="dropdown-menu">
+            
+                <li><a class="dropdown-item" href = "https://www.amazon.com/dp/B000FC12C8?tag=investopedia-onsite-prod-20&linkCode=ogi&th=1&psc=1&ascsubtag=5114673%7Cn3f91f438d78c44a2aa0716ddf781acd404%7C" target="_blank">The Intelligent Investor </a></li>
+                <li><a class="dropdown-item" href = "https://www.amazon.com/dp/1250120845?tag=investopedia-onsite-prod-20&linkCode=ogi&th=1&psc=1&ascsubtag=5114673%7Cn3f91f438d78c44a2aa0716ddf781acd404%7C" target="_blank">The Bond King</a></li>
+                <li><a class="dropdown-item" href = "https://www.amazon.com/dp/0691186731?tag=investopedia-onsite-prod-20&linkCode=ogi&th=1&psc=1&ascsubtag=5114673%7Cn3f91f438d78c44a2aa0716ddf781acd404%7C" target="_blank">Patient Capital </a></li>
+                <li><a class="dropdown-item" href = "https://www.amazon.com/dp/1455504017?tag=investopedia-onsite-prod-20&linkCode=ogi&th=1&psc=1&ascsubtag=5114673%7Cn3f91f438d78c44a2aa0716ddf781acd404%7C" target="_blank">The Billionaire's Apprentice</a></li>
+                <li><a class="dropdown-item" href = "https://www.amazon.com/dp/1605500089?tag=investopedia-onsite-prod-20&linkCode=ogi&th=1&psc=1&ascsubtag=5114673%7Cn3f91f438d78c44a2aa0716ddf781acd404%7C" target="_blank">The Ultimate Day Trader</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Options
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.smallcase.com/smallcase/all-weather-investing-SCAW_0001" target="_blank">Beginner's </a></li>
+                <li><a class="dropdown-item" href = "https://www.smallcase.com/smallcase/equity-and-gold-SCET_0005" target="_blank">Hybrid</a></li>
+                <li><a class="dropdown-item" href = "https://www.smallcase.com/smallcase/the-great-indian-middle-class-SCNM_0010" target="_blank">Middle Class </a></li>
+                <li><a class="dropdown-item" href = "https://www.smallcase.com/smallcase/house-of-tata-SCTR_0014" target="_blank">Finest companies</a></li>
+                <li><a class="dropdown-item" href = "https://www.smallcase.com/smallcase/value-and-momentum-SCMO_0010" target="_blank">Momentum</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link "  routerLink="returns" >Return Calculator</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " routerLink="about">About</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+    <body>
+     
+      <router-outlet></router-outlet>
+    
+     
+      <main>
+      
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="assets/halloween.jpg" height="700px"  class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 style="font-family: Poor story; font-size: 20px;">Halloween's here !</h5>
+                <p style="font-family: Poor story; font-size: 20px;">Don't forget to redeem free stocks on our partner platforms </p>
+                <p style="font-family: Poor story; font-size: 20px;">Amidst the spooky uptrend market ! </p>
+                
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="assets/uptrend.jpg" height="600px"  class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 style="font-family: Ubuntu;"> Muhurat Trading</h5>
+                <p style="font-size: 20px; font-family: Ubuntu; ">The market is on the up after muhurat trading</p>
+                <p style="font-size: 20px;font-family:Ubuntu ">what is your take here ?</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/2.jpg" height="600px"  class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 style="font-family: Ubuntu;">Saving or Investing ?</h5>
+                <p style="font-size: 20px ; font-family: Ubuntu;"> The amount of investment is inversely proportional to your age</p>
+                <p style="font-family: Ubuntu;">whereas the amount of saving is directly proportional to it !</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <br>
+      
+      
+        <!-- Marketing messaging and featurettes
+        ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+      
+        <div class="container marketing">
+      
+          <!-- Three columns of text below the carousel -->
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="bd-placeholder-img rounded-circle" height="100px" width="100px" src="assets/house.jpg" alt="">
+              
+      
+              <h2 class="fw-normal">Needs</h2>
+              <p>Your needs are basically everything without which you can't live your life as a human.</p>
+              <!-- <p><a class="btn btn-secondary" href="#">View details »</a></p> -->
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="bd-placeholder-img rounded-circle" height="100px" width="100px" src="assets/money.jpg" alt="">
+      
+              <h2 class="fw-normal">Invest</h2>
+              <p>After keeping the part of your salary for your needs, Invest a part of the rest .</p>
+              <!-- <p><a class="btn btn-secondary" href="#">View details »</a></p> -->
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="bd-placeholder-img rounded-circle" height="100px" width="100px" src="assets/wants.jpg" alt="">
+      
+              <h2 class="fw-normal">Wants</h2>
+              <p>And last but not the least, Don't forget to enjoy life because YOLO !</p>
+              <!-- <p><a class="btn btn-secondary" href="#">View details »</a></p> -->
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
+      
+      
+          <!-- START THE FEATURETTES -->
+      
+          <hr class="featurette-divider">
+      
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">Future is unpredictable <span class="text-muted">Start early buddy !!</span></h2>
+              <p class="lead">Have something for the future . The first thing that must come to your mind is a Life Insurance or term Insurance. Also while you have the age to take risk, you can go for little risky smallcases like our velocity and momentum with an average return of 24%</p>
+            </div>
+            <div class="col-md-5">
+             <img src="https://images.unsplash.com/photo-1666951196130-701462fa4f89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE0fENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+             width="200" height="300" alt="">
+      
+            </div>
+          </div>
+      
+          <hr class="featurette-divider">
+      
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1">Then comes your important life decisions. <span class="text-muted">See for yourself man .</span></h2>
+              <p class="lead">It is Education . That's the most important investment that you start the earliest. Then comes Home. Then marrying your love.Our partnered smallcases for Middle class are a great way to start with an average return of 17 % </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFycmlhZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" height="200" width="300" alt="">
+      
+            </div>
+          </div>
+      
+          <hr class="featurette-divider">
+      
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">And lastly, the second phase your life <span class="text-muted">Checkmate Daddy !!.</span></h2>
+              <p class="lead">Education gets costlier. It will definitely be costlier for your children. Save for them .You can focus on safer options i.e in some finest companies like our House of Tata smallcase ! </p>
+            </div>
+            <div class="col-md-5">
+              <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" height="200" width="300" alt="">
+      
+            </div>
+          </div>
+      
+          <hr class="featurette-divider">
+          
+          
+          
+
+
+
+      
+        </div>
+      
+      
+        <!-- FOOTER -->
+        
+       
+      
+      
+            
+        
+      
+          <div class="row">
+           
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Finance</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Accounting</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden" #email >Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+  
+
+    
+    
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+    <!-- Footer -->
+   
+
